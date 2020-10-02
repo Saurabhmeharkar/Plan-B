@@ -670,17 +670,6 @@ header.fixed-top{
     font-weight: 700;
 }
 
-
-.growth-section .growth-img {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-.growth-section .growth-img img {
-    max-width: 500px;
-}
-
 .growth-section p {
     font-size: 16px;
     font-weight: 500;
@@ -708,7 +697,7 @@ header.fixed-top{
 
 .growth-section .growth-box .growth-bar .growth-bar-in {
     background-color: #6C63FF;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     height: 100%;
@@ -972,6 +961,10 @@ header.fixed-top{
     text-decoration: none;
     color: #555555;
     font-weight: 500;
+    transition:  0.3s;
+}
+.footer-section .links-section .first-col ul li a:hover, .second-col ul li a:hover{
+    color: #ffffff;
 }
 .footer-section .footer-content h2{
     font-size: 2rem;
